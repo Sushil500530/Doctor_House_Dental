@@ -19,7 +19,7 @@ const Login = () => {
                         <label className="text-xl  font-medium">Password</label>
                         <input type="password" name="password" className="input bg-[#F3F3F3] w-full border-blue-500" id="" placeholder="Enter your password" />
                     </div>
-                    <p className="text-base font-medium">Please register at first. Go to <Link className="text-blue-500 underline">Sign Up</Link></p>
+                    <p className="text-base font-medium my-8">Please register at first. Go to <Link to='/resister' className="text-blue-500 underline">SIGN UP</Link></p>
                     <button className="btn px-8 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-[18px] font-medium hover:text-white w-full">Sign in</button>
                 </form>
                 <div className="w-3/5 mx-auto">
