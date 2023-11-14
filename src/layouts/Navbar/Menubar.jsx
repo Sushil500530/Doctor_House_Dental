@@ -24,7 +24,7 @@ const Menubar = () => {
                 <li>About</li>
             </NavLink>
             <NavLink
-                to='/about'
+                to='/apoinment'
                 className={({ isActive }) =>
                     isActive
                         ? "btn px-8 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-[18px] font-medium hover:text-whit"
@@ -34,7 +34,7 @@ const Menubar = () => {
                 <li>Appointment</li>
             </NavLink>
             <NavLink
-                to='/about'
+                to='/login'
                 className={({ isActive }) =>
                     isActive
                         ? "btn px-8 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-[18px] font-medium hover:text-whit"

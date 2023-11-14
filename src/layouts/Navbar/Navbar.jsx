@@ -2,7 +2,8 @@ import Container from "../../hooks/Container";
 import Menubar from "./Menubar";
 import Sidebar from "./Sidebar";
 import logo from '../../assets/image/logo/Group 1.png'
-const Navbar = () => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({children}) => {
     return (
         <Container>
             <div className="drawer">
@@ -27,7 +28,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* Page content here */}
-                    Content
+                  {children}
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>

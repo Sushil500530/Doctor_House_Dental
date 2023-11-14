@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
     return (
         <div className="flex flex-col">
-            <NavLink
+         <NavLink
                 to='/'
                 className={({ isActive }) =>
                     isActive
@@ -24,7 +24,7 @@ const Sidebar = () => {
                 <li>About</li>
             </NavLink>
             <NavLink
-                to='/about'
+                to='/apoinment'
                 className={({ isActive }) =>
                     isActive
                         ? "btn px-8 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-[18px] font-medium hover:text-whit"
@@ -34,7 +34,7 @@ const Sidebar = () => {
                 <li>Appointment</li>
             </NavLink>
             <NavLink
-                to='/about'
+                to='/login'
                 className={({ isActive }) =>
                     isActive
                         ? "btn px-8 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-[18px] font-medium hover:text-whit"
@@ -43,8 +43,6 @@ const Sidebar = () => {
             >
                 <li>Login</li>
             </NavLink>
-
-
         </div>
     );
 };
